@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- portfolio site -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="YLGgfDelzi79EOQBUccV-x5DhAavIU_Y3VnNcY4ygzc" />
+
+    <title>BENNETTE SEBASTIAN</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">BENNETTE SEBASTIAN</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                  
+                
+             </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">I'm Bennette. Nice to meet you!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Have a look at some of my work</p>
+                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <div class="container">
+            <!-- features list -->
+                
+                <div class="container-fluid" id="cnt1">
+                    <div class="row-fluid feature">
+                        <div class="col-md-2">
+                            <!-- first feature -->
+                            <div class="carousel-linked-projects pagination">
+                                <div class="active">
+                        
+                                    <img src="http://lorempixel.com/200/200/city/1/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                                    <h2>Project 1</h2>
+                                    <p>
+                                       P1 descrip                    
+                                    </p>
+                                    <a href="#1" data-project='1' class="btn btn-success lower">Deets</a>
+                                
+                                </div>
+                               
+                                <!-- second feature -->
+                                 <div>
+                                
+                                    <img src="http://lorempixel.com/200/200/city/2/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                                    <h2>Project 2</h2>
+                                    <p>
+                                       P2 descript     
+                                    </p>
+                                    <a href="#2" data-project='2' class="btn btn-success lower">Deets</a>
+                                
+                                </div>
+                                <!-- third feature -->
+                                <div>
+                                
+                                    <img src="http://lorempixel.com/200/200/city/3/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                                    <h2>Project 3</h2>
+                                    <p>
+                                      P3 descrip       
+                                    </p>
+                                    <a href="#3" data-project='3' class="btn btn-success lower">Deets</a>
+                            
+                                </div>
+                            </div>
+                      
+                        </div>
+                     </div>
+
+                        <!-- begin carousel -->
+                        <div class="col-md-9 col-md-offset-1">
+                            <!-- carousel for pictures -->
+
+                                <section id="carousel" class="carousel-test">
+                                <div class="row">
+                                        <!-- <div class="col-md-8" "col-md-offset-4"> -->
+                                    <div id="allSlides" style="display:none;">
+                                        <div class="item" data-project='1'>
+                                            <%= image_tag("basement-1.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='1'>
+                                           <%= image_tag("basement-2.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='1'>
+                                           <%= image_tag("basement-3.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='2'>
+                                            <%= image_tag("portfolio-1.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='2'>
+                                           <%= image_tag("portfolio-2.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='2'>
+                                           <%= image_tag("portfolio-3.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='3'>
+                                            <%= image_tag("Wall-1.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='3'>
+                                            <%= image_tag("Wall-2.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='3'>
+                                            <%= image_tag("Wall-3.jpg") %>
+                                        </div>
+                                    </div>
+
+                
+                                    <!-- controls moved to side projects -->
+                                   <!--  <ol class="carousel-linked-projects pagination">
+                                      <li class="active"><a href="#1" data-project='1'>1</a></li>
+                                      <li><a href="#2" data-project='2'>2</a></li>
+                                      <li><a href="#3" data-project='3'>3</a></li>
+                                    </ol> -->
+
+                                <div id="myCarousel" class="carousel slide">
+                                      <!-- Carousel items -->           
+                                      <div class="carousel-inner">
+                                        <div class="active item" data-project='1'>
+                                            <%= image_tag("basement-1.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='1'>
+                                            <%= image_tag("basement-2.jpg") %>
+                                        </div>
+                                        <div class="item" data-project='1'>
+                                            <%= image_tag("basement-3.jpg") %>
+                                        </div>
+                                      </div>
+                                      <!-- Carousel nav -->
+                                     <!--  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                                      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a> -->
+                                </div>
+
+                                    <!-- LINKED NAV -->
+                                    <ol class="carousel-linked-nav pagination">
+                                      <li class="active"><a href="#1">1</a></li>
+                                      <li><a href="#2">2</a></li>
+                                      <li><a href="#3">3</a></li>
+                                    </ol>
+
+
+
+
+                                </div>
+                        </div>
+                                </section>  
+
+
+                            <!-- end carousel pictures -->
+
+
+
+                        </div>
+                        <!-- end carousel -->
+
+                       
+                    </div>
+                </div>
+
+
+
+                <!-- end features list -->
+
+
+
+        </div>
+
+    
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project?</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i href="tel:+15182581529" class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p><a href="tel:+19192609484">Call Me!</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i href="mailto:bssebast@gmail.com"class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:bssebast@gmail.com">Email Me!</a></p>
+                </div>
+                <div class="footer-col col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+    <script>
+        //Carousel
+
+    var myCarousel = $('#myCarousel')
+    , carouselLinkedNav = $('.carousel-linked-nav')
+    , carouselLinkedProjects = $('.carousel-linked-projects')
+    , allSlides = $('#allSlides').find('div.item')
+    // invoke the carousel
+    $('#myCarousel').carousel({
+      interval: 3000
+    });
+
+    /* SLIDE ON CLICK */ 
+
+    carouselLinkedNav.find('li > a').click(function() {
+        var $this = $(this)
+        // grab href, remove pound sign, convert to number
+          , item = $this.attr('href').substring(1) | 0;
+
+        // slide to number -1 (account for zero indexing)
+        $('#myCarousel').carousel(item - 1);
+
+        // remove current active class
+        carouselLinkedNav.find('.active').removeClass('active');
+
+        // add active class to just clicked on item
+        $this.closest('li').addClass('active');
+
+        // don't follow the link
+        return false;
+    });
+
+    carouselLinkedProjects.find('div > a').click(function() {
+        console.log(carouselLinkedProjects.find(' li > a'));
+        carouselLinkedProjects.find('div').removeClass('active')
+        $(this).closest('div').addClass('active')
+        
+        var currentProject = $(this).data('project')
+        
+         myCarousel.find('.item').remove()
+         $slides = allSlides.filter( function () { 
+              return $(this).data('project') == currentProject 
+         })
+         
+         $slides.eq(0).addClass('active')
+         
+         console.log(this, currentProject , $slides )
+         
+         myCarousel.find('.carousel-inner').append($slides)
+         
+         myCarousel.carousel("pause").removeData().carousel(0)
+        
+        return false
+    });
+    /* AUTOPLAY NAV HIGHLIGHT */
+
+    // bind 'slid' function
+    myCarousel.bind('slid', function() {
+
+        // remove active class
+        carouselLinkedNav.find('.active').removeClass('active');
+
+        // get index of currently active item
+        var idx = myCarousel.find('item.active').index();
+
+        // select currently active item and add active class
+        $('.carousel-linked-nav li:eq(' + idx + ')').addClass('active');
+
+    });
+
+
+    // end carousel
+    </script>
+
+</body>
+
+</html>
