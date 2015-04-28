@@ -18,9 +18,10 @@ body {
 /*Carousel*/
 #slideshow {
   margin: 0; 
-  padding: 0;
+  /*2padding: 100px;*/
   background: #111;
-  height: 100%;
+  /*height: 100%;*/
+  overflow: hidden;
 }
 .diy-slideshow{
   position: relative;
@@ -430,6 +431,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
+    margin: 10px;
     background-color: #f05f40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
