@@ -107,7 +107,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -134,7 +134,7 @@ p {
 }
 
 .bg-primary {
-    background-color: red;
+    background-color: black;
 }
 
 .bg-dark {
@@ -194,7 +194,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: white!important;
     background-color: transparent;
 }
 
@@ -220,7 +220,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: white;
     }
 
     .navbar-default .nav > li>a:hover,
@@ -230,12 +230,12 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: black;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: white;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -377,8 +377,8 @@ header .img-circle {
 
 .btn-default {
     border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    color: black;
+    background-color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -391,7 +391,7 @@ header .img-circle {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
+    color: white;
     background-color: #f2f2f2;
 }
 
@@ -432,7 +432,7 @@ fieldset[disabled] .btn-default.active {
     border-color: #f05f40;
     color: #fff;
     margin: 10px;
-    background-color: #f05f40;
+    background-color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
